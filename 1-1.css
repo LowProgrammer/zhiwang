@@ -1,0 +1,38 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body, html {
+    font: 14px/1.5 "PingFang SC","微软雅黑","Microsoft YaHei",Helvetica,"Helvetica Neue",Tahoma,Arial,sans-serif;
+}
+a{color:#2d374b;text-decoration:none}
+a:hover{color:#cd0200;text-decoration:underline}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+
+#header{
+    background: #e3e4e5;
+}
+#nav{
+    height: 35px;
+    position: relative;
+    width: auto;
+}
+#nav.page-container{
+    margin: 0;
+    padding:0 40px 0 0;
+}
+
+.nav-item li{
+    line-height: 35px;
+    text-align: center;
+    float: right;
+    margin: auto 15px;
+}
+li.sn-separator{
+    overflow: hidden;
+    margin: 11px 5px 0;
+    width: 1px;
+    height: 15px;
+    background-color: #999;
+ }
